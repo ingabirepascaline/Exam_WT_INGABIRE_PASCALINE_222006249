@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Exchange Platform</title>
+    <style>
+       body {
+            background-image: url('./th5.jpg'); /* Adjust the path if necessary */
+            background-size: cover; /* Ensure the image covers the entire background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: teal;
+            border-bottom: 5px solid black;
+        }
+        .logo {
+            width: 60px;
+            height: auto;
+        }
+        .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: none;
+            flex-grow: 2; 
+        }
+        .navigation li {
+            display: inline-block;
+            margin-right: 5px;
+            padding: 5px;
+        }
+        .navigation li:last-child {
+            margin-right: 0;
+        }
+        .navigation li a {
+            text-decoration: none;
+            color: white; /* Changed color to white */
+        }
+        .dropdown-contents {
+            display: none;
+            position: absolute;
+            background-color: pink;
+            text-decoration: none;
+        }
+        .dropdown-contents a {
+            color: green;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-contents a:hover {
+            background-color: orange;
+        }
+        .dropdown:hover .dropdown-contents {
+            display: block;
+        }
+        .content {
+            padding: 20px;
+            color: black;
+            background-color: white; 
+        }
+        
+        footer {
+            background-color: green; 
+            text-align: center; 
+            width: 100%; 
+            height: 90px; 
+            color: orange; 
+            font-size: 25px; 
+            margin-top: 20px; 
+            bottom: 0; 
+            left: 0;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <img class="logo" src="th5.jpg" alt="Logo">
+    <h3 style="color: white;"><i>Language Exchange Platform</i></h3>
+    <ul class="navigation">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact </a></li>
+        <li class="dropdown">
+            <a href="#">Tables</a>
+            <div class="dropdown-contents">
+                <a href="reviewers.php">reviewers</a>
+                <a href="payments.php">payments</a>
+                <a href="resourcesharing.php">resourcesharing</a>
+                <a href="participants.php">participants</a>
+                <a href="languages.php">languages</a>
+                <a href="feedback.php">feedback</a>
+                <a href="profiles.php">profiles</a>
+                <a href="availability.php">availability</a>
+                <a href="exchangesessions.php">exchangesessions</a>
+                <a href="organizer.php">organizer</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">Settings</a>
+            <div class="dropdown-contents">
+                <a href="login.html">login</a>
+                <a href="admin login.html"> admin login</a>
+                <a href="registration.php">registration</a>
+                <a href="logout.php">logout</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<section class="content">
+    <h2><u>Mission of Our System</u></h2>
+    <p><h3>Welcome to Language Exchange Platform, your premier destination for language learning and cultural exchange. Our platform was founded with a mission to connect language enthusiasts from all corners of the globe, fostering meaningful connections and empowering individuals to achieve their language learning goals.</h3></p>
+    <p><h3>At Language Exchange Platform, we believe that language is more than just words—it's a bridge that connects people, cultures, and ideas. Our mission is to break down linguistic barriers and promote cross-cultural understanding through interactive language exchange experiences.</h3></p>
+
+    <h2><u>What We Offer</u></h2>
+    <p><h3>Language Exchange: Connect with native speakers and language learners worldwide for real-time language practice. Whether you're learning French, Japanese, or Swahili, our platform provides the tools and resources you need to engage in immersive language exchange sessions.<br>
+    Flexible Learning: Tailor your language learning experience to suit your preferences and schedule. Whether you prefer text-based chat, voice calls, or video sessions, our platform accommodates a variety of communication methods to meet your learning needs.<br>
+    Community Engagement: Join a vibrant community of language learners who share your passion for multilingualism and cultural exploration. Participate in group discussions, join language-specific forums, and connect with like-minded individuals who are eager to learn and share knowledge.</h3></p>
+
+    <h2><u>Our Commitment</u></h2>
+    <p><h3>At Language Exchange Platform, we are committed to creating a safe, inclusive, and supportive learning environment for all users. Our platform is moderated to ensure respectful and constructive interactions, and we uphold strict standards to safeguard the privacy and security of our users' information.</h3></p>
+</section>
+
+<footer>
+    <center><b><h2>UR CBE BIT &copy, 2024 &reg, Designed by: @ingabire pascaline</h2></b></center>
+</footer>
+
+</body>
+</html>
